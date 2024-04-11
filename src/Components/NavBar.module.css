@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin: 0 10px;
+    font-size: 15px;
+    font-family: monospace;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center; 
+    justify-content: flex-start;
+  }
+  
+  .navLink {
+    color: #3C486B;
+  }
+  
+  .navLink:hover {
+    text-decoration: none;
+    color: #F45050;
+  }
+  
+  

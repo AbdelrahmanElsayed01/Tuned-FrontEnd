@@ -1,0 +1,26 @@
+/* SearchTextBox.module.css */
+
+/* Container styles for input and select */
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Adjust the gap between input and select */
+  }
+  
+  /* Style for the input */
+  .searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style for the select */
+  .searchSelect {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    /* Add any additional styles as needed */
+  }
+  

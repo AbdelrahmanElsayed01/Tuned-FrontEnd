@@ -1,0 +1,165 @@
+.pricingTables {
+  padding: 60px 0;
+  min-height: 80vh;
+}
+
+.link {
+  text-decoration: none;
+  outline: none;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: #6f6f6f;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mainTitle {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.mainTitle h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.mainTitle h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.mainTitle p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.pricing {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 9;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.priceHeader {
+  width: 100%;
+  background: #fff;
+  padding: 35px 20px;
+}
+
+.title {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #37404d;
+}
+
+.price {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0;
+  color: #37404d;
+}
+
+.content {
+  padding: 20px 20px 30px;
+  background: #f9f9f9;
+}
+
+.content ul {
+  margin: 0 0 20px;
+}
+
+.content ul li {
+  padding: 8px 0;
+  font-size: 16px;
+  color: #656565;
+}
+
+.listingBadges {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  right: 0;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  padding: 0;
+  overflow: hidden;
+  height: 100px;
+}
+
+.featuredBadge {
+  float: left;
+  transform: rotate(-45deg);
+  left: -67px;
+  top: 17px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  font-size: 13px;
+  margin: 0;
+  padding: 7px 10px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.featuredBadge.theme {
+  background: #f0151f;
+}
+
+.btnOutline {
+  border: solid 1px #f0151f;
+  color: #f0151f;
+}
+
+.btnOutline:hover {
+  border: solid 1px #dc141d;
+  background: #dc141d;
+  color: #fff;
+}
+
+.buttonTheme {
+  background: #f0151f;
+  color: #FFF !important;
+}
+
+.buttonTheme:hover {
+  background: #dc141d;
+  color: #fff;
+}
+
+.pricingBtn {
+  padding: 7px 25px 5px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+}
+.pricingBtn:focus{
+  outline: none;
+}
+.premuimTitle{
+  text-align: center;
+  margin-top: 200px;
+}
+  

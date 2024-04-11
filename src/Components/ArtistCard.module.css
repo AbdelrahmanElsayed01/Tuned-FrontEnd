@@ -1,0 +1,53 @@
+.searchBody{
+    background: url(public/pictures/backgroundSearcPage.PNG) no-repeat fixed center center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.control:hover{
+    background-color: #F9D949;
+}
+
+.artistCard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.indexLabel {
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9D949; /* Background color for the number */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
